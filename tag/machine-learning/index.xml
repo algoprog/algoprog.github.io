@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning | Chris Samarinas</title>
+    <link>https://algoprog.com/tag/machine-learning/</link>
+      <atom:link href="https://algoprog.com/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sat, 15 Aug 2020 21:02:06 +0800</lastBuildDate>
+    <image>
+      <url>https://algoprog.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>machine learning</title>
+      <link>https://algoprog.com/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Quin</title>
+      <link>https://algoprog.com/project/quin/</link>
+      <pubDate>Sat, 15 Aug 2020 21:02:06 +0800</pubDate>
+      <guid>https://algoprog.com/project/quin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wamby</title>
+      <link>https://algoprog.com/project/wamby/</link>
+      <pubDate>Thu, 01 Jun 2017 21:10:24 +0800</pubDate>
+      <guid>https://algoprog.com/project/wamby/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
