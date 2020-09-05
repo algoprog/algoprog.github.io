@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://algoprog.com/categories/</loc>
-    <lastmod>2020-08-15T21:02:06+08:00</lastmod>
+    <loc>https://algoprog.com/</loc>
+    <lastmod>2020-09-03T01:32:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://algoprog.com/</loc>
+    <loc>https://algoprog.com/talk/</loc>
+    <lastmod>2020-09-03T01:32:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://algoprog.com/talk/ictai-2020-paper-accepted/</loc>
+    <lastmod>2020-09-03T01:32:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://algoprog.com/talk/letscheck-platform-launch/</loc>
+    <lastmod>2020-08-31T15:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://algoprog.com/categories/</loc>
     <lastmod>2020-08-15T21:02:06+08:00</lastmod>
   </url>
   
@@ -48,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://algoprog.com/publication-type/3/</loc>
+    <loc>https://algoprog.com/publication-type/1/</loc>
     <lastmod>2020-07-15T19:52:52+08:00</lastmod>
   </url>
   
@@ -138,10 +153,6 @@
   
   <url>
     <loc>https://algoprog.com/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://algoprog.com/talk/</loc>
   </url>
   
 </urlset>

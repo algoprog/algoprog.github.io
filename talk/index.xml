@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Chris Samarinas</title>
+    <title>News | Chris Samarinas</title>
     <link>https://algoprog.com/talk/</link>
       <atom:link href="https://algoprog.com/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright>
+    <description>News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 03 Sep 2020 01:32:00 +0800</lastBuildDate>
     <image>
       <url>https://algoprog.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>News</title>
       <link>https://algoprog.com/talk/</link>
     </image>
+    
+    <item>
+      <title>One Paper Accepted at IEEE ICTAI 2020</title>
+      <link>https://algoprog.com/talk/ictai-2020-paper-accepted/</link>
+      <pubDate>Thu, 03 Sep 2020 01:32:00 +0800</pubDate>
+      <guid>https://algoprog.com/talk/ictai-2020-paper-accepted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Letscheck Platform Launch</title>
+      <link>https://algoprog.com/talk/letscheck-platform-launch/</link>
+      <pubDate>Mon, 31 Aug 2020 15:00:00 +0800</pubDate>
+      <guid>https://algoprog.com/talk/letscheck-platform-launch/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
