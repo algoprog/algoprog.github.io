@@ -5,12 +5,20 @@
     <link>https://algoprog.com/category/natural-language-processing/</link>
       <atom:link href="https://algoprog.com/category/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>natural language processing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sat, 15 Aug 2020 21:02:06 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Fri, 20 Nov 2020 19:52:52 +0800</lastBuildDate>
     <image>
       <url>https://algoprog.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>natural language processing</title>
       <link>https://algoprog.com/category/natural-language-processing/</link>
     </image>
+    
+    <item>
+      <title>Improving Evidence Retrieval for Automated Explainable Fact-Checking (to be submitted)</title>
+      <link>https://algoprog.com/publication/improving-evidence-retrieval-for-fact-checking/</link>
+      <pubDate>Fri, 20 Nov 2020 19:52:52 +0800</pubDate>
+      <guid>https://algoprog.com/publication/improving-evidence-retrieval-for-fact-checking/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Quin</title>
