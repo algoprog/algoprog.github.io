@@ -5,28 +5,12 @@
     <link>https://algoprog.com/author/chris-samarinas/</link>
       <atom:link href="https://algoprog.com/author/chris-samarinas/index.xml" rel="self" type="application/rss+xml" />
     <description>Chris Samarinas</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Fri, 20 Nov 2020 19:52:52 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright>
     <image>
       <url>https://algoprog.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Chris Samarinas</title>
       <link>https://algoprog.com/author/chris-samarinas/</link>
     </image>
-    
-    <item>
-      <title>Improving Evidence Retrieval for Automated Explainable Fact-Checking</title>
-      <link>https://algoprog.com/publication/improving-evidence-retrieval-for-fact-checking/</link>
-      <pubDate>Fri, 20 Nov 2020 19:52:52 +0800</pubDate>
-      <guid>https://algoprog.com/publication/improving-evidence-retrieval-for-fact-checking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Latent Retrieval for Large-Scale Fact-Checking and Question Answering with NLI training</title>
-      <link>https://algoprog.com/publication/latent-retrieval-fact-checking-question-answering-nli/</link>
-      <pubDate>Wed, 15 Jul 2020 19:52:52 +0800</pubDate>
-      <guid>https://algoprog.com/publication/latent-retrieval-fact-checking-question-answering-nli/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
