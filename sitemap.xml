@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://algoprog.com/</loc>
+    <lastmod>2021-03-18T12:27:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://algoprog.com/talk/</loc>
+    <lastmod>2021-03-18T12:27:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://algoprog.com/talk/naacl-2021-paper-accepted/</loc>
+    <lastmod>2021-03-18T12:27:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://algoprog.com/publication-type/3/</loc>
     <lastmod>2020-11-20T19:52:52+08:00</lastmod>
   </url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>https://algoprog.com/author/chris-samarinas/</loc>
-    <lastmod>2020-11-20T19:52:52+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://algoprog.com/</loc>
     <lastmod>2020-11-20T19:52:52+08:00</lastmod>
   </url>
   
@@ -83,17 +93,7 @@
   </url>
   
   <url>
-    <loc>https://algoprog.com/talk/</loc>
-    <lastmod>2020-09-03T01:32:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://algoprog.com/talk/ictai-2020-paper-accepted/</loc>
-    <lastmod>2020-09-03T01:32:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://algoprog.com/talk/naacl-2021-paper-accepted/</loc>
     <lastmod>2020-09-03T01:32:00+08:00</lastmod>
   </url>
   

@@ -5,7 +5,7 @@
     <link>https://algoprog.com/talk/</link>
       <atom:link href="https://algoprog.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Chris Samarinas</copyright><lastBuildDate>Thu, 03 Sep 2020 01:32:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Chris Samarinas</copyright><lastBuildDate>Thu, 18 Mar 2021 12:27:33 +0800</lastBuildDate>
     <image>
       <url>https://algoprog.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>One Paper Accepted at IEEE ICTAI 2020</title>
-      <link>https://algoprog.com/talk/ictai-2020-paper-accepted/</link>
-      <pubDate>Thu, 03 Sep 2020 01:32:00 +0800</pubDate>
-      <guid>https://algoprog.com/talk/ictai-2020-paper-accepted/</guid>
+      <title>One Paper Accepted at NAACL 2021</title>
+      <link>https://algoprog.com/talk/naacl-2021-paper-accepted/</link>
+      <pubDate>Thu, 18 Mar 2021 12:27:33 +0800</pubDate>
+      <guid>https://algoprog.com/talk/naacl-2021-paper-accepted/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>One Paper Accepted at NAACL 2021</title>
-      <link>https://algoprog.com/talk/naacl-2021-paper-accepted/</link>
+      <title>One Paper Accepted at IEEE ICTAI 2020</title>
+      <link>https://algoprog.com/talk/ictai-2020-paper-accepted/</link>
       <pubDate>Thu, 03 Sep 2020 01:32:00 +0800</pubDate>
-      <guid>https://algoprog.com/talk/naacl-2021-paper-accepted/</guid>
+      <guid>https://algoprog.com/talk/ictai-2020-paper-accepted/</guid>
       <description></description>
     </item>
     
