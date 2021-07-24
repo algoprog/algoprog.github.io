@@ -39,7 +39,7 @@
     <item>
       <title>News</title>
       <link>https://algoprog.com/news/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0200</pubDate>
       <guid>https://algoprog.com/news/</guid>
       <description>
 
@@ -50,6 +50,7 @@
 
 
 
+&lt;p&gt;&lt;strong&gt;[23/07/21]&lt;/strong&gt; I got a scholarship for my PhD studies from &lt;a href=&#34;https://www.bodossaki.gr/en/&#34;&gt;Bodossaki Foundation&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[18/03/21]&lt;/strong&gt; Our demo paper on &lt;a href=&#34;https://algoprog.com/publication/improving-evidence-retrieval-for-fact-checking/&#34;&gt;evidence retrieval for fact-checking&lt;/a&gt; was accepted at NAACL 2021.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[12/02/21]&lt;/strong&gt; In September 2021, I will join the &lt;a href=&#34;https://ciir.cs.umass.edu/&#34;&gt;Center for Intelligent Information Retrieval&lt;/a&gt; at &lt;a href=&#34;https://www.umass.edu/&#34;&gt;University of Massachusetts Amherst&lt;/a&gt;, the top department in Information Retrieval, for a MSc/PhD in Computer Science.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[03/09/20]&lt;/strong&gt; Our paper on &lt;a href=&#34;https://algoprog.com/publication/latent-retrieval-fact-checking-question-answering-nli/&#34;&gt;latent retrieval for fact-checking and QA&lt;/a&gt; was accepted as a long paper at IEEE ICTAI 2020.&lt;/p&gt;
