@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    background-color:rgb(242, 242, 242);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.section {
+    margin-top: 45px;
+    line-height: 1.8;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h2 {
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+#wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px 30px 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#top {
+    text-align: center;
+    padding: 20px 0 35px 0;
+    border-bottom: 1px solid gray;
+}
+
+#about {
+    margin-top: 25px !important;
+}
+
+#contact {
+    text-align: center;
+}
+
+#experience ul li {
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 800px) {
+    #profile {
+        float: left;
+        display: block;
+        margin-right: 20px;
+        width: 130px;
+        border-radius: 50%;
+    }
+
+    #top-nav {
+        position: relative;
+        left: -65px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    #profile {
+        margin-right: 20px;
+        width: 150px;
+        border-radius: 50%;
+    }
+}
