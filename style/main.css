@@ -4,7 +4,6 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Merriweather', serif;
-    font-size: 15px;
     background-color:rgb(242, 242, 242);
 }
 
@@ -62,6 +61,10 @@ h2 {
 }
 
 @media only screen and (min-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+
     #profile {
         float: left;
         display: block;
@@ -78,6 +81,10 @@ h2 {
 }
 
 @media only screen and (max-width: 799px) {
+    body {
+        font-size: 13px;
+    }
+
     #profile {
         margin-right: 20px;
         width: 150px;
