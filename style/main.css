@@ -25,7 +25,9 @@ li {
 }
 
 h1 {
-    font-size: 33px;
+    font-size: 35px;
+    padding: 0;
+    margin: 20px 0 0 0;
 }
 
 h2 {
@@ -45,6 +47,7 @@ h2 {
     text-align: center;
     padding: 20px 0 35px 0;
     border-bottom: 1px solid gray;
+    font-size: 14px;
 }
 
 #about {
@@ -60,7 +63,15 @@ h2 {
     font-size: 13px;
 }
 
-@media only screen and (min-width: 800px) {
+#updated {
+    border-top: 1px solid rgb(171, 171, 171);
+    margin-top: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 830px) {
     body {
         font-size: 15px;
     }
@@ -69,18 +80,18 @@ h2 {
         float: left;
         display: block;
         margin-right: 20px;
-        width: 130px;
+        width: 180px;
         border-radius: 50%;
     }
 
     #top-nav {
         position: relative;
-        left: -65px;
+        left: -90px;
         display: block;
     }
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 829px) {
     body {
         font-size: 12px;
     }
