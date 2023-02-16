@@ -19,6 +19,17 @@ li {
     margin-top: 10px;
 }
 
+.icon {
+    background-color: rgb(234, 236, 247);
+    padding: 8px 10px 8px 10px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    text-decoration: none;
+    background-color: rgb(217, 219, 229);
+}
+
 #experience li {
     margin-top: 20px;
 }
@@ -102,7 +113,7 @@ h2 {
 
     #profile {
         margin-right: 20px;
-        width: 150px;
+        width: 180px;
         border-radius: 50%;
     }
 }
