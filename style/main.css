@@ -16,6 +16,10 @@ a:hover {
 }
 
 li {
+    margin-top: 5px;
+}
+
+#experience li {
     margin-top: 20px;
 }
 
