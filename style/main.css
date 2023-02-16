@@ -58,13 +58,6 @@ h2 {
     background-color: rgb(255, 255, 255);
 }
 
-#top {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    font-size: 14px;
-}
-
 #about {
     margin-top: 25px !important;
 }
@@ -91,6 +84,13 @@ h2 {
         font-size: 15px;
     }
 
+    #top {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+
     #profile {
         float: left;
         display: block;
@@ -111,9 +111,16 @@ h2 {
         font-size: 12px;
     }
 
+    #top {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
     #profile {
         margin-right: 20px;
-        width: 180px;
+        width: 160px;
         border-radius: 50%;
     }
 }
