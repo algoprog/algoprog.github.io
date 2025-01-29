@@ -4,18 +4,23 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Merriweather', serif;
-    background-color:rgb(242, 242, 242);
+    background-color: #d9d9d9;
+    color: #1a2633;
+    line-height: 1.6;
 }
 
 a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 a, a:visited {
-    color: rgb(45, 62, 160);
+    color: #1a5981;
+    transition: color 0.2s ease;
 }
 
 a:hover {
+    color: #0f3449;
     text-decoration: underline;
 }
 
@@ -35,15 +40,26 @@ li {
 }
 
 .icon {
-    background-color: rgb(234, 236, 247);
-    padding: 9px 12px 9px 12px;
+    display: inline-block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
     border-radius: 50%;
-    font-size: 16px;
+    color: #1a5981;
+    transition: all 0.2s ease;
+    border: 1px solid #e9ecef;
 }
 
 .icon:hover {
-    text-decoration: none;
-    background-color: rgb(217, 219, 229);
+    background-color: #1a5981;
+    color: #ffffff;
+}
+
+.icon i {
+    font-size: 16px;
 }
 
 #experience li {
@@ -52,6 +68,7 @@ li {
 
 .section {
     margin-top: 45px;
+    background-color: #ffffff;
     line-height: 1.8;
 }
 
@@ -62,20 +79,23 @@ h1 {
 }
 
 h2 {
-    border-bottom: 1px solid rgb(189, 189, 189);
-    padding-bottom: 5px;
+    border-bottom: 2px solid #1a5981;
+    padding-bottom: 10px;
     font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 20px;
 }
 
 #wrap {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 30px 30px 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 #about {
-    margin-top: 25px !important;
+    margin-top: 5px !important;
 }
 
 #contact {
@@ -163,13 +183,14 @@ h2 {
     padding: 0;
     margin: 0;
     font-size: 15px;
+    line-height: 1.6;
 }
 
 .timeline::after {
     content: '';
     position: absolute;
     width: 4px;
-    background-color: #a9a9a9;
+    background-color: #e9ecef;
     top: 0;
     bottom: 0;
     left: 0;
@@ -188,22 +209,26 @@ h2 {
     width: 8px;
     height: 8px;
     left: -4px;
-    background-color: white;
-    border: 2px solid #6d6d6d;
-    top: 8px;
+    background-color: #ffffff;
+    border: 2px solid #1a5981;
+    top: 21px;
     border-radius: 50%;
     z-index: 1;
 }
 
 .timeline-content {
-    background-color: white;
-    position: relative;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.timeline-content:hover {
+    background-color: #f0f0f0;
 }
 
 .timeline-content ul li {
     line-height: 1.3;
     font-size: 1em;
-    color: #333;
+    color: #1a2633;
 }
 
 .date {
@@ -214,16 +239,17 @@ h2 {
 
 .publication-list {
     list-style-type: none;
-    padding-left: 23px;
+    padding: 0;
 }
 
 .publication-list li {
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
 }
 
-.publication-list li:last-child {
-    border-bottom: none;
+.publication-list li:hover {
+    background-color: #f0f0f0;
 }
 
 .publication-list li a {
@@ -243,5 +269,98 @@ h2 {
     display: block;
     margin-top: 5px;
     font-size: 0.9em;
-    color: #666;
+    color: #404040;
+}
+
+.hidden-news {
+    display: none;
+}
+
+.show-more-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.show-more-btn:hover {
+    background-color: #e0e0e0;
+}
+
+#publication-filters {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filter-btn {
+    margin: 0 5px 5px 0;
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.filter-btn.active {
+    background-color: #1a5981;
+    color: white;
+    border-color: #1a5981;
+}
+
+@media only screen and (max-width: 829px) {
+    .filter-btn {
+        font-size: 11px;
+        padding: 6px 8px;
+    }
+}
+
+ul#news-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.hidden-pub {
+    display: none;
+}
+
+.news-date {
+    font-family: monospace;
+    background-color: #f8f9fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 0.9em;
+    color: #1a5981;
+    font-weight: bold;
+}
+
+.scholar-link {
+    float: right;
+    font-size: 0.6em;
+    color: #1a5981;
+    margin-top: 10px;
+}
+
+.scholar-link:hover {
+    color: #0f3449;
+    text-decoration: none;
+}
+
+.hidden-exp {
+    display: none;
 }
