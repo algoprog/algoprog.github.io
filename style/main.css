@@ -349,18 +349,186 @@ ul#news-list {
     font-weight: bold;
 }
 
-.scholar-link {
+.scholar-link, .twitter-link {
     float: right;
     font-size: 0.6em;
     color: #1a5981;
     margin-top: 10px;
 }
 
-.scholar-link:hover {
+.scholar-link:hover, .twitter-link:hover {
     color: #0f3449;
     text-decoration: none;
 }
 
 .hidden-exp {
     display: none;
+}
+
+/* Theme toggle button */
+#theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+#theme-toggle:hover {
+    background-color: #e0e0e0;
+}
+
+/* Keep the manual dark mode classes */
+[data-theme="dark"] {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] #wrap {
+    background-color: #2d2d2d;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] a, 
+[data-theme="dark"] a:visited {
+    color: #66b3ff;
+}
+
+[data-theme="dark"] a:hover {
+    color: #99ccff;
+}
+
+[data-theme="dark"] .section {
+    background-color: #2d2d2d;
+}
+
+[data-theme="dark"] h2 {
+    border-bottom-color: #66b3ff;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .icon {
+    background-color: #404040;
+    border-color: #505050;
+    color: #66b3ff;
+}
+
+[data-theme="dark"] .icon:hover {
+    background-color: #66b3ff;
+    color: #2d2d2d;
+}
+
+[data-theme="dark"] .timeline::after {
+    background-color: #404040;
+}
+
+[data-theme="dark"] .timeline-item::after {
+    background-color: #2d2d2d;
+    border-color: #66b3ff;
+}
+
+[data-theme="dark"] .timeline-content:hover {
+    background-color: #363636;
+}
+
+[data-theme="dark"] .timeline-content ul li {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .publication-list li {
+    border-bottom-color: #404040;
+}
+
+[data-theme="dark"] .publication-list li:hover {
+    background-color: #363636;
+}
+
+[data-theme="dark"] .publication-list li em {
+    color: #b0b0b0;
+}
+
+[data-theme="dark"] .show-more-btn,
+[data-theme="dark"] .filter-btn {
+    background-color: #404040;
+    border-color: #505050;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .show-more-btn:hover,
+[data-theme="dark"] .filter-btn:hover {
+    background-color: #505050;
+}
+
+[data-theme="dark"] .filter-btn.active {
+    background-color: #66b3ff;
+    color: #2d2d2d;
+    border-color: #66b3ff;
+}
+
+[data-theme="dark"] .news-date {
+    background-color: #404040;
+    color: #66b3ff;
+}
+
+[data-theme="dark"] #updated {
+    border-top-color: #404040;
+}
+
+[data-theme="dark"] #theme-toggle {
+    background-color: #404040;
+    border-color: #505050;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] #theme-toggle:hover {
+    background-color: #505050;
+}
+
+.year-divider {
+    font-weight: bold;
+    color: #1a5981;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.year-divider::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    z-index: 1;
+}
+
+.year-divider::after {
+    content: attr(data-year);
+    background-color: #ffffff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+}
+
+[data-theme="dark"] .year-divider {
+    color: #66b3ff;
+}
+
+[data-theme="dark"] .year-divider::before {
+    border-top-color: #404040;
+}
+
+[data-theme="dark"] .year-divider::after {
+    background-color: #2d2d2d;
 }
