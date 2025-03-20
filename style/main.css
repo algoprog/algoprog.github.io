@@ -53,11 +53,15 @@ li {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border: 2px solid #e9ecef;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-right: 15px;
+    text-decoration: none;
 }
 
 .icon:hover {
     background-color: #1a5981;
-    color: #ffffff;
+    color: var(--primary-color-hover);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-color: #1a5981;
 }
@@ -718,4 +722,51 @@ u {
 /* Adjust the contrast for the authors section in dark mode */
 [data-theme="dark"] .authors {
     margin: 10px 0 6px 0;
+}
+
+/* Media queries for responsive icons */
+@media (max-width: 768px) {
+    .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 6px;
+    }
+    
+    .icon i {
+        font-size: 16px;
+    }
+    
+    [data-theme="dark"] .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    [data-theme="dark"] .icon i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 4px;
+    }
+    
+    .icon i {
+        font-size: 14px;
+    }
+    
+    [data-theme="dark"] .icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    
+    [data-theme="dark"] .icon i {
+        font-size: 14px;
+    }
 }
