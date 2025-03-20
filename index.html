@@ -24,6 +24,17 @@
 
         <link rel="stylesheet" href="style/main.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        
+        <script>
+            // Check for saved theme preference, otherwise use system preference
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            
+            // Set theme before page renders
+            document.documentElement.setAttribute('data-theme', 
+                savedTheme || (prefersDark ? 'dark' : 'light')
+            );
+        </script>
     </head>
 
     <body>
@@ -46,8 +57,8 @@
             </div>
     
             <div id="about" class="section">
-                I'm a PhD student in Information Retrieval at the <a href="https://ciir.cs.umass.edu/">Center for Intelligent Information Retrieval</a> at <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>, supervised by <a href="https://groups.cs.umass.edu/zamani/">Hamed Zamani</a>. 
-                I&rsquo;m currently doing research in <em>conversational search</em>. I'm also the founder of <a href="https://naget.com">Naget</a>, an upcoming low-fee everything-platform that among other features will introduce <em>personal instruction-based search</em>.
+                I'm a 4th year PhD student in Information Retrieval at the <a href="https://ciir.cs.umass.edu/">Center for Intelligent Information Retrieval</a> at <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>, supervised by <a href="https://groups.cs.umass.edu/zamani/">Hamed Zamani</a>. 
+                I&rsquo;m currently doing research in <em>conversational search</em>. I'm also the founder of <a href="https://naget.com">Naget</a>, an upcoming low-fee everything-platform that will introduce <em>personal instruction-based search</em>.
                 <br/><br/>
                 Recently, I interned at Amazon and Adobe, where I worked on <em>generative retrieval</em> and <em>multi-step dense retrieval</em>.
                 Before my PhD journey, I was at <a href="https://www.ro5.ai/">Ro5</a> where I worked on the automated construction of a <em>biomedical knowledge graph</em> for drug discovery, 
@@ -100,57 +111,103 @@
                         <a href="https://arxiv.org/abs/2501.03545">
                             Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual Information in Long-form Text Generation
                         </a>
-                        <br><u>Chris Samarinas</u>, Alexander Krubner, Alireza Salemi, Youngwoo Kim, Hamed Zamani
-                        <br><em>Preprint</em>
+                        <div class="authors">
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Alexander Krubner</span>
+                            <span class="author-tag">Alireza Salemi</span>
+                            <span class="author-tag">Youngwoo Kim</span>
+                            <span class="author-tag">Hamed Zamani</span>
+                        </div>
+                        <span class="conference">Preprint</span>
                     </li>
                     <li data-tags="conversational-ir">
                         <a href="https://arxiv.org/abs/2405.06460">
                             ProCIS: A Benchmark for Proactive Retrieval in Conversations
                         </a>
-                        <br><u>Chris Samarinas</u>, Hamed Zamani
-                        <br><em>SIGIR 2024</em>
+                        <div class="authors">
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Hamed Zamani</span>
+                        </div>
+                        <span class="conference">SIGIR 2024</span>
                     </li>
                     <li data-tags="task-oriented-dialogue,language-models">
                         <a href="https://arxiv.org/abs/2404.14772">
                             Simulating Task-Oriented Dialogues with State Transition Graphs and Large Language Models
                         </a>
-                        <br><u>Chris Samarinas</u>, Pracha Promthaw, Atharva Nijasure, Hansi Zeng, Julian Killingback, Hamed Zamani
-                        <br><em>Preprint</em>
+                        <div class="authors">
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Pracha Promthaw</span>
+                            <span class="author-tag">Atharva Nijasure</span>
+                            <span class="author-tag">Hansi Zeng</span>
+                            <span class="author-tag">Julian Killingback</span>
+                            <span class="author-tag">Hamed Zamani</span>
+                        </div>
+                        <span class="conference">Preprint</span>
                     </li>
                     <li data-tags="task-oriented-dialogue">
                         <a href="files/alexa-prize-2022.pdf">
                             MarunaBot V2: Towards End-to-End Multi-Modal Task-Oriented Dialogue Systems
                         </a>
-                        <br><u>Chris Samarinas</u>, Pracha Promthaw, Rohan Lekhwani, Sheshera Mysore, Sung Ming Huang, Atharva Nijasure, Hansi Zeng, Hamed Zamani
-                        <br><em>Alexa Prize Taskbot Challenge 2022</em>
+                        <div class="authors">
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Pracha Promthaw</span>
+                            <span class="author-tag">Rohan Lekhwani</span>
+                            <span class="author-tag">Sheshera Mysore</span>
+                            <span class="author-tag">Sung Ming Huang</span>
+                            <span class="author-tag">Atharva Nijasure</span>
+                            <span class="author-tag">Hansi Zeng</span>
+                            <span class="author-tag">Hamed Zamani</span>
+                        </div>
+                        <span class="conference">Alexa Prize Taskbot Challenge 2022</span>
                     </li>
                     <li data-tags="conversational-ir">
                         <a href="https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1455">
                             Revisiting Open Domain Query Facet Extraction and Generation
                         </a>
-                        <br><u>Chris Samarinas</u>, Arkin Dharawat, Hamed Zamani
-                        <br><em>ICTIR 2022</em>
+                        <div class="authors">
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Arkin Dharawat</span>
+                            <span class="author-tag">Hamed Zamani</span>
+                        </div>
+                        <span class="conference">ICTIR 2022</span>
                     </li>
                     <li data-tags="task-oriented-dialogue">
                         <a href="https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1462">
                             MarunaBot: An Extensible Retrieval-Focused Framework for Task-Oriented Dialogues
                         </a>
-                        <br>Amit Hattimare, <u>Chris Samarinas</u>, Arkin Dharawat, Yelman Khan, Yen-Chieh Lien, George Wei, Yulin Yang, Hamed Zamani
-                        <br><em>Alexa Prize Taskbot Challenge 2021</em>
+                        <div class="authors">
+                            <span class="author-tag">Amit Hattimare</span>
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Arkin Dharawat</span>
+                            <span class="author-tag">Yelman Khan</span>
+                            <span class="author-tag">Yen-Chieh Lien</span>
+                            <span class="author-tag">George Wei</span>
+                            <span class="author-tag">Yulin Yang</span>
+                            <span class="author-tag">Hamed Zamani</span>
+                        </div>
+                        <span class="conference">Alexa Prize Taskbot Challenge 2021</span>
                     </li>
                     <li data-tags="fact-checking">
                         <a href="https://aclanthology.org/2021.naacl-demos.10/">
                             Improving Evidence Retrieval for Automated Explainable Fact-checking
                         </a>
-                        <br><u>Chris Samarinas</u>, Wynne Hsu, Mong Li Lee
-                        <br><em>NAACL 2021</em>
+                        <div class="authors">
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Wynne Hsu</span>
+                            <span class="author-tag">Mong Li Lee</span>
+                        </div>
+                        <span class="conference">NAACL 2021</span>
                     </li>
                     <li data-tags="fact-checking">
                         <a href="https://ieeexplore.ieee.org/iel7/9288160/9288161/09288228.pdf">
                             Latent Retrieval for Large-Scale Fact-Checking and Question Answering with NLI training
                         </a>
-                        <br><u>Chris Samarinas</u>, Wynne Hsu, Mong Li Lee
-                        <br><em>ICTAI 2020</em>
+                        <div class="authors">
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Wynne Hsu</span>
+                            <span class="author-tag">Mong Li Lee</span>
+                        </div>
+                        <span class="conference">ICTAI 2020</span>
                     </li>
                 </ul>
                 <button id="show-more-pubs" class="show-more-btn">Show more</button>
@@ -254,7 +311,7 @@
             <div id="service" class="section">
                 <h2>Service</h2>
                 <ul>
-                    <li><b>Reviewing:</b> ACM Transactions on Information Systems (TOIS), SIGIR 2024, ACL (ARR)</li>
+                    <li><b>Reviewing:</b> ACM TOIS, SIGIR 2024, SIGIR 2025, ACL (ARR)</li>
                     <li><b>Mentoring:</b> 
                         <ul>
                             <li>2022 Early Research Scholars Program (ERSP) at UMass</li>
@@ -277,6 +334,10 @@
                 Last update: 15/03/25
             </div>
         </div>
+
+        <button id="go-up-btn" aria-label="Go to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
 
         <script>
         document.getElementById('show-more-news').addEventListener('click', function() {
@@ -449,6 +510,26 @@
         const themeToggle = document.getElementById('theme-toggle');
         const themeIcon = themeToggle.querySelector('i');
 
+        // Go up button functionality
+        const goUpBtn = document.getElementById('go-up-btn');
+        
+        // Show/hide go up button based on scroll position
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {  // Show after 300px scroll
+                goUpBtn.style.display = 'block';
+            } else {
+                goUpBtn.style.display = 'none';
+            }
+        });
+
+        // Smooth scroll to top when clicked
+        goUpBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
         // Function to set theme
         function setTheme(theme) {
             document.documentElement.setAttribute('data-theme', theme);
@@ -458,8 +539,7 @@
             document.body.setAttribute('data-theme', theme);
         }
 
-        // Check for saved theme preference
-        const savedTheme = localStorage.getItem('theme');
+        // Use the savedTheme variable from the head section
         if (savedTheme) {
             setTheme(savedTheme);
         } else {
