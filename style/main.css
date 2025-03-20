@@ -61,9 +61,13 @@ li {
 
 .icon:hover {
     background-color: #1a5981;
-    color: var(--primary-color-hover);
+    color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-color: #1a5981;
+}
+
+.icon:hover i {
+    color: #ffffff;
 }
 
 .icon i {
