@@ -118,6 +118,17 @@
                         </div>
                         <span class="conference">Preprint</span>
                     </li>
+                    <li data-tags="text-generation,language-models">
+                        <a href="https://arxiv.org/abs/2504.07794">
+                            Plan-and-Refine: Diverse and Comprehensive Retrieval-Augmented Generation
+                        </a>
+                        <div class="authors">
+                            <span class="author-tag">Alireza Salemi</span>
+                            <span class="author-tag"><u>Chris Samarinas</u></span>
+                            <span class="author-tag">Hamed Zamani</span>
+                        </div>
+                        <span class="conference">preprint</span>
+                    </li>
                     <li data-tags="text-generation,language-models,fact-checking">
                         <a href="https://arxiv.org/abs/2501.03545">
                             Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual Information in Long-form Text Generation
@@ -226,13 +237,90 @@
 
             <div id="awards" class="section">
                 <h2>Awards</h2>
-                <ol>
-                    <li><b>SIGIR Travel Grant</b>, June 2022, for attentding ICTIR in Madrid</li>
-                    <li><b><a href="https://www.bodossaki.gr/en/">Bodossaki Foundation</a> PhD Scholarship</b>, July 2021, 5-year scholarship for PhD studies in Information Retrieval</li>
-                    <li><b>Bioengineering Hackathon, 1st place</b>, <a href="https://emb.web.auth.gr/">EMB IEEE Student Chapter</a>, April 2018, 1st place for developing DropSense in 48 hours, a platform that monitors and connects elderly with their relatives and paid carers using Wear OS smartwatches</li>
-                    <li><b>Great Moment for Education Scholarship</b>, <a href="https://www.eurobank.gr/en/group">Eurobank Ergasias</a>, 2012, scholarship for achieving the highest grade at school at the national university admission exam</li>
-                    <li><b>National Mathematics Competition, First Prize</b>, <a href="http://www.hms.gr/">Hellenic Mathematical Society</a>, 2009, awarded for competing in the final stage 'Archimedes', top 50 out of 20,000 participants</li>
-                </ol>
+                <div id="award-filters">
+                    <button class="award-filter-btn active" data-filter="all">All</button>
+                    <button class="award-filter-btn" data-filter="competitions">Competitions</button>
+                    <button class="award-filter-btn" data-filter="award-grant">Grants</button>
+                    <button class="award-filter-btn" data-filter="award-scholarship">Scholarships</button>
+                </div>
+                <div class="awards-container">
+                    <div class="award-card" data-tags="place-2nd">
+                        <div class="award-header">
+                            <div class="award-title">University Student Entrepreneurship Competition</div>
+                            <div class="award-place place-2nd">2nd Place</div>
+                        </div>
+                        <div class="award-date">May 2025</div>
+                        <div class="award-description">
+                            <a href="https://walk.auth.gr/">Walk _ AUTh Innovation Accelerator</a> - for our early-stage AI assistant prototype for hotels
+                        </div>
+                    </div>
+
+                    <div class="award-card" data-tags="place-3rd">
+                        <div class="award-header">
+                            <div class="award-title">6th Idea Platform Program</div>
+                            <div class="award-place place-3rd">3rd Place</div>
+                        </div>
+                        <div class="award-date">May 2025</div>
+                        <div class="award-description">
+                            <a href="https://www.capsuletaccelerator.gr/">Capsule T Accelerator</a> - for our early-stage AI assistant prototype for hotels
+                        </div>
+                    </div>
+
+                    <div class="award-card" data-tags="award-grant">
+                        <div class="award-header">
+                            <div class="award-title">SIGIR Travel Grant</div>
+                            <div class="award-place award-grant">Grant</div>
+                        </div>
+                        <div class="award-date">June 2022</div>
+                        <div class="award-description">
+                            For attending ICTIR 2022 in Madrid
+                        </div>
+                    </div>
+
+                    <div class="award-card" data-tags="award-scholarship">
+                        <div class="award-header">
+                            <div class="award-title"><a href="https://www.bodossaki.gr/en/">Bodossaki Foundation</a> PhD Scholarship</div>
+                            <div class="award-place award-scholarship">Scholarship</div>
+                        </div>
+                        <div class="award-date">July 2021</div>
+                        <div class="award-description">
+                            5-year scholarship for PhD studies in Information Retrieval
+                        </div>
+                    </div>
+
+                    <div class="award-card" data-tags="place-1st">
+                        <div class="award-header">
+                            <div class="award-title">Bioengineering Hackathon</div>
+                            <div class="award-place place-1st">1st Place</div>
+                        </div>
+                        <div class="award-date">April 2018</div>
+                        <div class="award-description">
+                            <a href="https://emb.web.auth.gr/">EMB IEEE Student Chapter</a> - Developed DropSense in 48 hours, a platform that monitors and connects elderly with their relatives and paid carers using Wear OS smartwatches
+                        </div>
+                    </div>
+
+                    <div class="award-card" data-tags="award-scholarship">
+                        <div class="award-header">
+                            <div class="award-title">Great Moment for Education Scholarship</div>
+                            <div class="award-place award-scholarship">Scholarship</div>
+                        </div>
+                        <div class="award-date">2012</div>
+                        <div class="award-description">
+                            <a href="https://www.eurobank.gr/en/group">Eurobank Ergasias</a> - Scholarship for achieving the highest grade at school at the national university admission exam
+                        </div>
+                    </div>
+
+                    <div class="award-card" data-tags="place-1st">
+                        <div class="award-header">
+                            <div class="award-title">National Mathematics Competition</div>
+                            <div class="award-place place-1st">First Prize</div>
+                        </div>
+                        <div class="award-date">2009</div>
+                        <div class="award-description">
+                            <a href="http://www.hms.gr/">Hellenic Mathematical Society</a> - Awarded for competing in the final stage 'Archimedes', top 50 out of 20,000 participants
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div id="experience" class="section">
@@ -514,6 +602,37 @@
                     item.style.display = 'none';
                     item.classList.add('hidden-exp');
                 }
+            });
+        });
+
+        // Add award filtering functionality
+        document.querySelectorAll('.award-filter-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all award filter buttons
+                document.querySelectorAll('.award-filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                const filter = this.getAttribute('data-filter');
+                const awards = document.querySelectorAll('.awards-container .award-card');
+                
+                awards.forEach(award => {
+                    const tags = award.getAttribute('data-tags');
+                    if (filter === 'all') {
+                        award.style.display = '';
+                    } else if (filter === 'competitions') {
+                        if (tags.includes('place-1st') || tags.includes('place-2nd') || tags.includes('place-3rd')) {
+                            award.style.display = '';
+                        } else {
+                            award.style.display = 'none';
+                        }
+                    } else {
+                        award.style.display = tags.includes(filter) ? '' : 'none';
+                    }
+                });
             });
         });
 
