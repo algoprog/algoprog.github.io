@@ -563,41 +563,16 @@ ul#news-list {
     color: #e0e0e0;
 }
 
-[data-theme="dark"] .show-more-btn,
-[data-theme="dark"] .filter-btn {
-    background-color: #404040;
-    border-color: #505050;
-    color: #e0e0e0;
+[data-theme="dark"] .show-more-btn {
+    background-color: #333333;
+    border-color: #444444;
+    color: #cccccc;
 }
 
-[data-theme="dark"] .show-more-btn:hover,
-[data-theme="dark"] .filter-btn:hover {
-    background-color: #505050;
-}
-
-[data-theme="dark"] .filter-btn.active {
-    background-color: #aaaaaa;
-    color: #2d2d2d;
-    border-color: #aaaaaa;
-}
-
-[data-theme="dark"] .news-date {
-    background-color: #404040;
-    color: #aaaaaa;
-}
-
-[data-theme="dark"] #updated {
-    border-top-color: #404040;
-}
-
-[data-theme="dark"] #theme-toggle {
-    background-color: #404040;
-    border-color: #505050;
-    color: #e0e0e0;
-}
-
-[data-theme="dark"] #theme-toggle:hover {
-    background-color: #505050;
+[data-theme="dark"] .show-more-btn:hover {
+    background-color: #444444;
+    border-color: #555555;
+    color: #ffffff;
 }
 
 .year-divider {
@@ -1042,4 +1017,29 @@ u {
     .award-description {
         font-size: 0.9em;
     }
+}
+
+[data-theme="dark"] .show-more-btn:hover {
+    background-color: #444444;
+    border-color: #555555;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .news-date {
+    background-color: #404040;
+    color: #aaaaaa;
+}
+
+[data-theme="dark"] #updated {
+    border-top-color: #404040;
+}
+
+[data-theme="dark"] #theme-toggle {
+    background-color: #404040;
+    border-color: #505050;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] #theme-toggle:hover {
+    background-color: #505050;
 }
